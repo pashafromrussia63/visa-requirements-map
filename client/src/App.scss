@@ -1,0 +1,40 @@
+.app {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.map {
+}
+
+.button {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: red;
+}
+
+.sidebar {
+  position: fixed;
+  z-index: 100;
+  background: red;
+  color: #ffffff;
+  width: 200px;
+  height: 100vh;
+  top: 0;
+  left: 100%;
+
+  &--isOpen {
+    animation: 1s in-out forwards;
+  }
+}
+
+@keyframes in-out {
+  0% {
+    left: calc(100%);
+  }
+  100% {
+    left: calc(100% - 200px);
+  }
+}
