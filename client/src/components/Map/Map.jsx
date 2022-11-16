@@ -6,6 +6,7 @@ import {
   ComposableMap,
   Geographies,
   Geography,
+  Marker,
   ZoomableGroup
 } from "react-simple-maps";
 
@@ -33,8 +34,22 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
   const mapWidth = 800;
   const mapHeight = 600;
 
+  const markers = [
+    { name: "Andorra", id: 'AND', coordinates: [1.5218, 42.5063] },
+    { name: "San Marino", id: 'SMR', coordinates: [12.4578, 43.9424] },
+    { name: "Liechtenstein", id: 'LIE', coordinates: [9.5209, 47.1410] },
+    { name: "Monaco", id: 'MCO', coordinates: [7.4246, 43.7384] },
+    { name: 'Malta', id: 'MLT', coordinates: [14.3754, 35.9375] },
+    { name: 'Bahrain', id: 'BHR', coordinates: [50.0000, 27.0000] },
+    { name: 'Maldives', id: 'MDV', coordinates: [73.5093, 4.1755] },
+    { name: 'Seychelles', id: 'SYC', coordinates: [55.4920, -4.6796]},
+    { name: 'Comoros', id: 'COM', coordinates: [43.2473, -11.7172] },
+    { name: 'Cape Verde', id: 'CPV', coordinates: [-23.5133, 14.9330] },
+    { name: 'Sao Tome and Principe', id: 'STP', coordinates: [6.6131, 0.1864] }
+  ];
+
   function handleZoomIn() {
-    if (position.zoom >= 4) return;
+    if (position.zoom >= 5) return;
     setPosition((pos) => ({ ...pos, zoom: pos.zoom * 2 }));
   }
 
@@ -70,8 +85,8 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
             center={position.coordinates}
             onMoveEnd={handleMoveEnd}
             translateExtent={[
-              [-200, -200],
-              [mapWidth + 200, mapHeight + 200]
+              [-10, -10],
+              [mapWidth + 10, mapHeight + 10]
             ]}
           >
             <Geographies geography={geoUrl}>
@@ -112,6 +127,41 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
                 })
               }
             </Geographies>
+            {markers.map(({ name, coordinates, id }) => {
+              const country = data.find((requirement) => requirement.iso3 === id);
+              return <Marker
+                key={name}
+                coordinates={coordinates}
+                style={{
+                  default: {
+                    outline: "none"
+                  },
+                  hover: {
+                    opacity: 0.8,
+                    cursor: 'pointer',
+                    outline: "none"
+                  },
+                  pressed: {
+                    opacity: 0.5,
+                    outline: "none"
+                  }
+                }}
+                onMouseEnter={() => {
+                  setTooltipContent(`${name}`);
+                }}
+                onMouseLeave={() => {
+                  setTooltipContent("");
+                }}
+                onClick={() => {
+                  setSidebarVisibility(true);
+                  console.log(country);
+                  setSidebarContent(country);
+                }}
+        >
+                  <circle r={2} fill={getColor(country)} stroke='#fff'/>
+              </Marker>
+            })
+          }
           </ZoomableGroup>
         )}
       </ComposableMap>
