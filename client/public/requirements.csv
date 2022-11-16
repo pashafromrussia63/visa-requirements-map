@@ -1,195 +1,195 @@
-ISO3,Name,Status,Stay
-AFG,Afghanistan,Visa required,0
-ALB,Albania,Visa not required,90 days
-DZA,Algeria,Visa required,0
-AND,Andorra,Visa not required,90 days
-AGO,Angola,eVisa,30 days
-ATG,Antigua and Barbuda,Visa not required,180 days
-ARG,Argentina,Visa not required,90 days
-ARM,Armenia,Internal passport,180 days
-AUS,Australia,Visa required,0
-AUT,Austria,Visa required,0
-AZE,Azerbaijan,Visa not required,90 days
-BHS,Bahamas,Visa not required,3 months
+iso3,name,status,stay,iso2
+AFG,Afghanistan,Visa required,,af
+ALB,Albania,Visa not required,90 days,al
+DZA,Algeria,Visa required,,dz
+AND,Andorra,Visa not required,90 days,ad
+AGO,Angola,eVisa,30 days,ao
+ATG,Antigua and Barbuda,Visa not required,180 days,ag
+ARG,Argentina,Visa not required,90 days,ar
+ARM,Armenia,Internal passport,180 days,am
+AUS,Australia,Visa required,,au
+AUT,Austria,Visa required,,at
+AZE,Azerbaijan,Visa not required,90 days,az
+BHS,Bahamas,Visa not required,3 months,bs
 BHR,Bahrain,eVisa / Visa on arrival,"14 days/
- 1 month"
-BGD,Bangladesh,Visa on arrival,30 days
-BRB,Barbados,Visa not required,28 days
-BLR,Belarus,Internal passport,Freedom of movement
-BEL,Belgium,Visa required,0
-BLZ,Belize,Visa not required,90 days
-BEN,Benin,eVisa / Visa on arrival,30 days / 8 days
-BTN,Bhutan,Visa required,0
-BOL,"Bolivia, Plurinational State of",Visa not required,90 days
-BIH,Bosnia and Herzegovina,Visa not required,30 days
-BWA,Botswana,Visa not required,90 days
-BRA,Brazil,Visa not required,90 days
-BRN,Brunei Darussalam,Visa not required,14 days
-BGR,Bulgaria,Visa required,0
-BFA,Burkina Faso,Visa required,0
-BDI,Burundi,Visa required,0
-KHM,Cambodia,eVisa / Visa on arrival,30 days
-CMR,Cameroon,Visa required,0
-CAN,Canada,Visa required,0
-CPV,Cape Verde,Visa not required,60 days
-CAF,Central African Republic,Visa required,0
-TCD,Chad,Visa required,0
-CHL,Chile,Visa not required,90 days
-CHN,China,Visa required,0
-COL,Colombia,Visa not required,90 days
-COM,Comoros,Visa on arrival,45 days
-COG,Congo,Visa required,0
-COD,"Congo, the Democratic Republic o",Visa required,0
-CRI,Costa Rica,Visa not required,90 days
-CIV,Cote d'Ivoire,eVisa,3 months
-HRV,Croatia,Visa required,0
-CUB,Cuba,Visa not required,90 days
-CYP,Cyprus,Visa required,0
-CZE,Czech Republic,Admission refused for tourists,0
-DNK,Denmark,Visa required,0
-DJI,Djibouti,eVisa,31 days
-DMA,Dominica,Visa not required,90 days
-DOM,Dominican Republic,Visa not required,60 days
-ECU,Ecuador,Visa not required,90 days
-EGY,Egypt,eVisa / Visa on arrival,30 days
-SLV,El Salvador,Visa not required,3 months
-GNQ,Equatorial Guinea,Visa required,0
-ERI,Eritrea,Visa required,0
-EST,Estonia,Admission refused for tourists,0
-ETH,Ethiopia,eVisa,up to 90 days
-FJI,Fiji,Visa not required,4 months
-FIN,Finland,Admission refused for tourists,0
-FRA,France,Visa required,0
-GAB,Gabon,eVisa,90 days
-GMB,Gambia,Visa required,0
-GEO,Georgia,Visa not required,360 days
-DEU,Germany,Visa required,0
-GHA,Ghana,Visa required,0
-GRC,Greece,Visa required,0
-GRD,Grenada,Visa not required,3 months
-GTM,Guatemala,Visa not required,90 days
-GIN,Guinea,eVisa,90 days
-GNB,Guinea-Bissau,eVisa / Visa on arrival,90 days
-GUY,Guyana,Visa not required,3 months
-HTI,Haiti,Visa not required,3 months
-HND,Honduras,Visa not required,3 months
-HUN,Hungary,Visa required,0
-ISL,Iceland,Visa required,0
-IND,India,eVisa,90 days
-IDN,Indonesia,Visa on arrival,30 days
-IRN,"Iran, Islamic Republic of",eVisa,30 days
-IRQ,Iraq,Visa on arrival,60 days
-IRL,Ireland,Visa required,0
-ISR,Israel,Visa not required,3 months
-ITA,Italy,Visa required,0
-JAM,Jamaica,Visa not required,90 days
-JPN,Japan,Visa required,0
-JOR,Jordan,Visa on arrival,2 months
-KAZ,Kazakhstan,Internal passport,90 days
-KEN,Kenya,eVisa,3 months
-KIR,Kiribati,Visa required,0
-PRK,"Korea, Democratic People's Repub",Visa required,0
-KOR,"Korea, Republic of",Visa not required,60 days
-KWT,Kuwait,Visa required,0
-KGZ,Kyrgyzstan,Internal passport,Indefinite period
-LAO,Lao People's Democratic Republic,Visa not required,30 days
-LVA,Latvia,Admission refused for tourists,0
-LBN,Lebanon,Visa on arrival,1 month
-LSO,Lesotho,eVisa,0
-LBR,Liberia,Visa required,0
-LBY,Libyan Arab Jamahiriya,Visa required,0
-LIE,Liechtenstein,Visa required,0
-LTU,Lithuania,Admission refused for tourists,0
-LUX,Luxembourg,Visa required,0
-MKD,Macedonia,Visa required,0
-MDG,Madagascar,eVisa / Visa on arrival,90 days
-MWI,Malawi,eVisa,90 days
-MYS,Malaysia,Visa not required,30 days
-MDV,Maldives,Visa not required,90 days
-MLI,Mali,Visa required,0
-MLT,Malta,Visa required,0
-MHL,Marshall Islands,Visa on arrival,90 days
-MRT,Mauritania,Visa on arrival,0
-MUS,Mauritius,Visa not required,90 days
-MEX,Mexico,eVisa,180 days
-FSM,"Micronesia, Federated States of",Visa not required,30 days
-MDA,"Moldova, Republic of",Visa not required,90 days
-MCO,Monaco,Visa required,0
-MNG,Mongolia,Visa not required,30 days
-MNE,Montenegro,Visa not required,30 days
-MAR,Morocco,Visa not required,3 months
-MOZ,Mozambique,Visa on arrival,30 days
-MMR,Myanmar,Visa not required,30 days
-NAM,Namibia,Visa not required,90 days
-NRU,Nauru,Visa not required,15 days
-NPL,Nepal,Visa on arrival,90 days
-NLD,Netherlands,Visa required,0
-NZL,New Zealand,Visa required,0
-NIC,Nicaragua,Visa not required,90 days
-NER,Niger,Visa required,0
-NGA,Nigeria,Visa required,0
-NOR,Norway,Visa required,0
-OMN,Oman,Visa not required,10 days
-PAK,Pakistan,eVisa,0
-PLW,Palau,Visa not required,30 days
-PAN,Panama,Visa not required,90 days
-PNG,Papua New Guinea,eVisa,30 days
-PRY,Paraguay,Visa not required,90 days
-PER,Peru,Visa not required,90 days
-PHL,Philippines,Visa not required,30 days
-POL,Poland,Admission refused for tourists,0
-PRT,Portugal,Visa required,0
-QAT,Qatar,Visa not required,90 days
-ROU,Romania,Visa required,0
-RUS,Russian Federation,Internal passport,Visa not required
-RWA,Rwanda,eVisa / Visa on arrival,30 days
-KNA,Saint Kitts and Nevis,Visa not required,3 months
-LCA,Saint Lucia,Visa not required,6 weeks
-VCT,Saint Vincent and the Grenadines,Visa not required,90 days
-WSM,Samoa,Visa not required,60 days
-SMR,San Marino,Visa not required,90 days
-STP,Sao Tome and Principe,Visa not required,15 days
-SAU,Saudi Arabia,eVisa / Visa on arrival,90 days
-SEN,Senegal,Visa on arrival,90 days
-SRB,Serbia,Visa not required,30 days
-SYC,Seychelles,Visa not required,30 days
-SLE,Sierra Leone,Visa on arrival,0
-SGP,Singapore,eVisa,2 months
-SVK,Slovakia,Visa required,0
-SVN,Slovenia,Visa required,0
-SLB,Solomon Islands,Visa required,0
-SOM,Somalia,Visa on arrival,30 days
-ZAF,South Africa,Visa not required,90 days
-ESP,Spain,Visa required,0
-LKA,Sri Lanka,eVisa / Visa on arrival,30 days
-SDN,Sudan,Visa required,0
-SUR,Suriname,Visa not required,90 days
-SWZ,Swaziland,Visa not required,30 days
-SWE,Sweden,Visa required,0
-CHE,Switzerland,Visa required,0
-SYR,Syrian Arab Republic,Visa required,0
-TJK,Tajikistan,Visa not required,Indefinite period
-TZA,"Tanzania, United Republic of",eVisa / Visa on arrival,3 months
-THA,Thailand,Visa not required,30 days
-TLS,Timor-Leste,Visa on arrival,30 days
-TGO,Togo,Visa on arrival,7 days
-TON,Tonga,Visa on arrival,31 days
-TTO,Trinidad and Tobago,Visa not required,90 days
-TUN,Tunisia,Visa not required,3 months
-TUR,Turkey,Visa not required,60 days
-TKM,Turkmenistan,Visa required,0
-TUV,Tuvalu,Visa on arrival,1 month
-UGA,Uganda,eVisa,3 months
-UKR,Ukraine,Visa required,0
-ARE,United Arab Emirates,Visa not required,90 days
-GBR,United Kingdom,Visa required,0
-USA,United States,Visa required,0
-URY,Uruguay,Visa not required,3 months
-UZB,Uzbekistan,Visa not required,60 days
-VUT,Vanuatu,Visa not required,90 days
-VEN,"Venezuela, Bolivarian Republic o",Visa not required,90 days
-VNM,Viet Nam,Visa not required,15 days
-YEM,Yemen,Visa required,0
-ZMB,Zambia,eVisa / Visa on arrival,90 days
-ZWE,Zimbabwe,eVisa / Visa on arrival,3 months
-LDNR,Disputed territories of Crimea and Donbas,Disputed,Disputed
+ 1 month",bh
+BGD,Bangladesh,Visa on arrival,30 days,bd
+BRB,Barbados,Visa not required,28 days,bb
+BLR,Belarus,Internal passport,Freedom of movement,by
+BEL,Belgium,Visa required,,be
+BLZ,Belize,Visa not required,90 days,bz
+BEN,Benin,eVisa / Visa on arrival,30 days / 8 days,bj
+BTN,Bhutan,Visa required,,bt
+BOL,"Bolivia, Plurinational State of",Visa not required,90 days,bo
+BIH,Bosnia and Herzegovina,Visa not required,30 days,ba
+BWA,Botswana,Visa not required,90 days,bw
+BRA,Brazil,Visa not required,90 days,br
+BRN,Brunei Darussalam,Visa not required,14 days,bn
+BGR,Bulgaria,Visa required,,bg
+BFA,Burkina Faso,Visa required,,bf
+BDI,Burundi,Visa required,,bi
+KHM,Cambodia,eVisa / Visa on arrival,30 days,kh
+CMR,Cameroon,Visa required,,cm
+CAN,Canada,Visa required,,ca
+CPV,Cape Verde,Visa not required,60 days,cv
+CAF,Central African Republic,Visa required,,cf
+TCD,Chad,Visa required,,td
+CHL,Chile,Visa not required,90 days,cl
+CHN,China,Visa required,,cn
+COL,Colombia,Visa not required,90 days,co
+COM,Comoros,Visa on arrival,45 days,km
+COG,Congo,Visa required,,cg
+COD,"Congo, the Democratic Republic o",Visa required,,cd
+CRI,Costa Rica,Visa not required,90 days,cr
+CIV,Cote d'Ivoire,eVisa,3 months,ci
+HRV,Croatia,Visa required,,hr
+CUB,Cuba,Visa not required,90 days,cu
+CYP,Cyprus,Visa required,,cy
+CZE,Czech Republic,Admission refused for tourists,,cz
+DNK,Denmark,Visa required,,dk
+DJI,Djibouti,eVisa,31 days,dj
+DMA,Dominica,Visa not required,90 days,dm
+DOM,Dominican Republic,Visa not required,60 days,do
+ECU,Ecuador,Visa not required,90 days,ec
+EGY,Egypt,eVisa / Visa on arrival,30 days,eg
+SLV,El Salvador,Visa not required,3 months,sv
+GNQ,Equatorial Guinea,Visa required,,gq
+ERI,Eritrea,Visa required,,er
+EST,Estonia,Admission refused for tourists,,ee
+ETH,Ethiopia,eVisa,up to 90 days,et
+FJI,Fiji,Visa not required,4 months,fj
+FIN,Finland,Admission refused for tourists,,fi
+FRA,France,Visa required,,fr
+GAB,Gabon,eVisa,90 days,ga
+GMB,Gambia,Visa required,,gm
+GEO,Georgia,Visa not required,360 days,ge
+DEU,Germany,Visa required,,de
+GHA,Ghana,Visa required,,gh
+GRC,Greece,Visa required,,gr
+GRD,Grenada,Visa not required,3 months,gd
+GTM,Guatemala,Visa not required,90 days,gt
+GIN,Guinea,eVisa,90 days,gn
+GNB,Guinea-Bissau,eVisa / Visa on arrival,90 days,gw
+GUY,Guyana,Visa not required,3 months,gy
+HTI,Haiti,Visa not required,3 months,ht
+HND,Honduras,Visa not required,3 months,hn
+HUN,Hungary,Visa required,,hu
+ISL,Iceland,Visa required,,is
+IND,India,eVisa,90 days,in
+IDN,Indonesia,Visa on arrival,30 days,id
+IRN,"Iran, Islamic Republic of",eVisa,30 days,ir
+IRQ,Iraq,Visa on arrival,60 days,iq
+IRL,Ireland,Visa required,,ie
+ISR,Israel,Visa not required,3 months,il
+ITA,Italy,Visa required,,it
+JAM,Jamaica,Visa not required,90 days,jm
+JPN,Japan,Visa required,,jp
+JOR,Jordan,Visa on arrival,2 months,jo
+KAZ,Kazakhstan,Internal passport,90 days,kz
+KEN,Kenya,eVisa,3 months,ke
+KIR,Kiribati,Visa required,,ki
+PRK,"Korea, Democratic People's Repub",Visa required,,kp
+KOR,"Korea, Republic of",Visa not required,60 days,kr
+KWT,Kuwait,Visa required,,kw
+KGZ,Kyrgyzstan,Internal passport,Indefinite period,kg
+LAO,Lao People's Democratic Republic,Visa not required,30 days,la
+LVA,Latvia,Admission refused for tourists,,lv
+LBN,Lebanon,Visa on arrival,1 month,lb
+LSO,Lesotho,eVisa,,ls
+LBR,Liberia,Visa required,,lr
+LBY,Libyan Arab Jamahiriya,Visa required,,ly
+LIE,Liechtenstein,Visa required,,li
+LTU,Lithuania,Admission refused for tourists,,lt
+LUX,Luxembourg,Visa required,,lu
+MKD,Macedonia,Visa required,,mk
+MDG,Madagascar,eVisa / Visa on arrival,90 days,mg
+MWI,Malawi,eVisa,90 days,mw
+MYS,Malaysia,Visa not required,30 days,my
+MDV,Maldives,Visa not required,90 days,mv
+MLI,Mali,Visa required,,ml
+MLT,Malta,Visa required,,mt
+MHL,Marshall Islands,Visa on arrival,90 days,mh
+MRT,Mauritania,Visa on arrival,,mr
+MUS,Mauritius,Visa not required,90 days,mu
+MEX,Mexico,eVisa,180 days,mx
+FSM,"Micronesia, Federated States of",Visa not required,30 days,fm
+MDA,"Moldova, Republic of",Visa not required,90 days,md
+MCO,Monaco,Visa required,,mc
+MNG,Mongolia,Visa not required,30 days,mn
+MNE,Montenegro,Visa not required,30 days,me
+MAR,Morocco,Visa not required,3 months,ma
+MOZ,Mozambique,Visa on arrival,30 days,mz
+MMR,Myanmar,Visa not required,30 days,mm
+NAM,Namibia,Visa not required,90 days,na
+NRU,Nauru,Visa not required,15 days,nr
+NPL,Nepal,Visa on arrival,90 days,np
+NLD,Netherlands,Visa required,,nl
+NZL,New Zealand,Visa required,,nz
+NIC,Nicaragua,Visa not required,90 days,ni
+NER,Niger,Visa required,,ne
+NGA,Nigeria,Visa required,,ng
+NOR,Norway,Visa required,,no
+OMN,Oman,Visa not required,10 days,om
+PAK,Pakistan,eVisa,,pk
+PLW,Palau,Visa not required,30 days,pw
+PAN,Panama,Visa not required,90 days,pa
+PNG,Papua New Guinea,eVisa,30 days,pg
+PRY,Paraguay,Visa not required,90 days,py
+PER,Peru,Visa not required,90 days,pe
+PHL,Philippines,Visa not required,30 days,ph
+POL,Poland,Admission refused for tourists,,pl
+PRT,Portugal,Visa required,,pt
+QAT,Qatar,Visa not required,90 days,qa
+ROU,Romania,Visa required,,ro
+RUS,Russian Federation,Internal passport,Visa not required,ru
+RWA,Rwanda,eVisa / Visa on arrival,30 days,rw
+KNA,Saint Kitts and Nevis,Visa not required,3 months,kn
+LCA,Saint Lucia,Visa not required,6 weeks,lc
+VCT,Saint Vincent and the Grenadines,Visa not required,90 days,vc
+WSM,Samoa,Visa not required,60 days,ws
+SMR,San Marino,Visa not required,90 days,sm
+STP,Sao Tome and Principe,Visa not required,15 days,st
+SAU,Saudi Arabia,eVisa / Visa on arrival,90 days,sa
+SEN,Senegal,Visa on arrival,90 days,sn
+SRB,Serbia,Visa not required,30 days,rs
+SYC,Seychelles,Visa not required,30 days,sc
+SLE,Sierra Leone,Visa on arrival,,sl
+SGP,Singapore,eVisa,2 months,sg
+SVK,Slovakia,Visa required,,sk
+SVN,Slovenia,Visa required,,si
+SLB,Solomon Islands,Visa required,,sb
+SOM,Somalia,Visa on arrival,30 days,so
+ZAF,South Africa,Visa not required,90 days,za
+ESP,Spain,Visa required,,es
+LKA,Sri Lanka,eVisa / Visa on arrival,30 days,lk
+SDN,Sudan,Visa required,,sd
+SUR,Suriname,Visa not required,90 days,sr
+SWZ,Swaziland,Visa not required,30 days,sz
+SWE,Sweden,Visa required,,se
+CHE,Switzerland,Visa required,,ch
+SYR,Syrian Arab Republic,Visa required,,sy
+TJK,Tajikistan,Visa not required,Indefinite period,tj
+TZA,"Tanzania, United Republic of",eVisa / Visa on arrival,3 months,tz
+THA,Thailand,Visa not required,30 days,th
+TLS,Timor-Leste,Visa on arrival,30 days,tl
+TGO,Togo,Visa on arrival,7 days,tg
+TON,Tonga,Visa on arrival,31 days,to
+TTO,Trinidad and Tobago,Visa not required,90 days,tt
+TUN,Tunisia,Visa not required,3 months,tn
+TUR,Turkey,Visa not required,60 days,tr
+TKM,Turkmenistan,Visa required,,tm
+TUV,Tuvalu,Visa on arrival,1 month,tv
+UGA,Uganda,eVisa,3 months,ug
+UKR,Ukraine,Visa required,,ua
+ARE,United Arab Emirates,Visa not required,90 days,ae
+GBR,United Kingdom,Visa required,,gb
+USA,United States,Visa required,,us
+URY,Uruguay,Visa not required,3 months,uy
+UZB,Uzbekistan,Visa not required,60 days,uz
+VUT,Vanuatu,Visa not required,90 days,vu
+VEN,"Venezuela, Bolivarian Republic o",Visa not required,90 days,ve
+VNM,Viet Nam,Visa not required,15 days,vn
+YEM,Yemen,Visa required,,ye
+ZMB,Zambia,eVisa / Visa on arrival,90 days,zm
+ZWE,Zimbabwe,eVisa / Visa on arrival,3 months,zw
+LDNR,Disputed territories of Crimea and Donbas,Disputed,Disputed,ru

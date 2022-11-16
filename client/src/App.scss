@@ -5,36 +5,32 @@
   overflow: hidden;
 }
 
-.map {
-}
-
 .button {
+  cursor: pointer;
   position: absolute;
   top: 5px;
   left: 5px;
-  background-color: red;
 }
 
 .sidebar {
+  background-color: beige;
+  border: 1px solid grey;
+  color: #000000;
   position: fixed;
   z-index: 100;
-  background: red;
-  color: #ffffff;
-  width: 200px;
+  width: 400px;
   height: 100vh;
   top: 0;
   left: 100%;
+  transition: left 1s ease-out;
+
+  &-flag {
+    margin: 20px auto;
+    border-radius: 50%;
+  }
 
   &--isOpen {
-    animation: 1s in-out forwards;
-  }
-}
-
-@keyframes in-out {
-  0% {
-    left: calc(100%);
-  }
-  100% {
-    left: calc(100% - 200px);
+    left: calc(100% - 400px);
+    transition: left 1s ease-out;
   }
 }
