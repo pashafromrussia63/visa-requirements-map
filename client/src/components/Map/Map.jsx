@@ -39,13 +39,25 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
     { name: "San Marino", id: 'SMR', coordinates: [12.4578, 43.9424] },
     { name: "Liechtenstein", id: 'LIE', coordinates: [9.5209, 47.1410] },
     { name: "Monaco", id: 'MCO', coordinates: [7.4246, 43.7384] },
-    { name: 'Malta', id: 'MLT', coordinates: [14.3754, 35.9375] },
+    { name: 'Malta', id: 'MLT', coordinates: [14.3754, 35.9375], isIsland: true },
     { name: 'Bahrain', id: 'BHR', coordinates: [50.0000, 27.0000] },
-    { name: 'Maldives', id: 'MDV', coordinates: [73.5093, 4.1755] },
-    { name: 'Seychelles', id: 'SYC', coordinates: [55.4920, -4.6796]},
-    { name: 'Comoros', id: 'COM', coordinates: [43.2473, -11.7172] },
-    { name: 'Cape Verde', id: 'CPV', coordinates: [-23.5133, 14.9330] },
-    { name: 'Sao Tome and Principe', id: 'STP', coordinates: [6.6131, 0.1864] }
+    { name: 'Hong Kong', id: 'HKG', coordinates: [114.5000, 22.5000], isIsland: true },
+    { name: 'Macau', id: 'MAC', coordinates: [113.5000, 22.0000], isIsland: true },
+    { name: 'Maldives', id: 'MDV', coordinates: [73.5093, 4.1755], isIsland: true },
+    { name: 'Seychelles', id: 'SYC', coordinates: [55.4920, -4.6796], isIsland: true},
+    { name: 'Comoros', id: 'COM', coordinates: [43.2473, -11.7172], isIsland: true },
+    { name: 'Cape Verde', id: 'CPV', coordinates: [-23.5133, 14.9330], isIsland: true },
+    { name: 'Sao Tome and Principe', id: 'STP', coordinates: [6.6131, 0.1864], isIsland: true },
+    { name: 'Antigua and Barbuda', id: 'ATG', coordinates: [-61.8468, 17.1274], isIsland: true },
+    { name: 'Barbados', id: 'BRB', coordinates: [-59.6132, 13.1060], isIsland: true },
+    { name: 'Dominica', id: 'DMA', coordinates: [-61.3710, 15.4150], isIsland: true },
+    { name: 'Grenada', id: 'GRD', coordinates: [-61.6790, 12.1165], isIsland: true },
+    { name: 'Saint Kitts and Nevis', id: 'KNA', coordinates: [-62.7830, 17.3578], isIsland: true },
+    { name: 'Saint Lucia', id: 'LCA', coordinates: [-60.9789, 13.9094], isIsland: true },
+    { name: 'Saint Vincent and the Grenadines', id: 'VCT', coordinates: [-61.2872, 12.9843], isIsland: true }
+    // { name: '', id: '', coordinates: [, ] },
+    // { name: '', id: '', coordinates: [, ] },
+    // { name: '', id: '', coordinates: [, ] },
   ];
 
   function handleZoomIn() {
@@ -127,7 +139,7 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
                 })
               }
             </Geographies>
-            {markers.map(({ name, coordinates, id }) => {
+            {markers.map(({ name, coordinates, id,  isIsland }) => {
               const country = data.find((requirement) => requirement.iso3 === id);
               return <Marker
                 key={name}
@@ -158,7 +170,7 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
                   setSidebarContent(country);
                 }}
         >
-                  <circle r={2} fill={getColor(country)} stroke='#fff'/>
+                  <circle r={isIsland ? 1 : 2} fill={getColor(country)} stroke={isIsland ? 'none' : '#fff'}/>
               </Marker>
             })
           }
