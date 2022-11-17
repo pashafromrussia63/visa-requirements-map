@@ -72,6 +72,7 @@ GNB,Guinea-Bissau,eVisa / Visa on arrival,90 days,gw
 GUY,Guyana,Visa not required,3 months,gy
 HTI,Haiti,Visa not required,3 months,ht
 HND,Honduras,Visa not required,3 months,hn
+HKG,Hong Kong,Visa not required,14 days,hk
 HUN,Hungary,Visa required,,hu
 ISL,Iceland,Visa required,,is
 IND,India,eVisa,90 days,in
@@ -100,6 +101,7 @@ LBY,Libyan Arab Jamahiriya,Visa required,,ly
 LIE,Liechtenstein,Visa required,,li
 LTU,Lithuania,Admission refused for tourists,,lt
 LUX,Luxembourg,Visa required,,lu
+MAC,Macau,Visa not required,30 days,mo
 MKD,Macedonia,Visa required,,mk
 MDG,Madagascar,eVisa / Visa on arrival,90 days,mg
 MWI,Malawi,eVisa,90 days,mw
@@ -159,6 +161,7 @@ SVN,Slovenia,Visa required,,si
 SLB,Solomon Islands,Visa required,,sb
 SOM,Somalia,Visa on arrival,30 days,so
 ZAF,South Africa,Visa not required,90 days,za
+SSD,South Sudan,eVisa,30 days,ss
 ESP,Spain,Visa required,,es
 LKA,Sri Lanka,eVisa / Visa on arrival,30 days,lk
 SDN,Sudan,Visa required,,sd

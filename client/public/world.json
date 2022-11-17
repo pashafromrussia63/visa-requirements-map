@@ -32138,6 +32138,13 @@
         {
           "type": null,
           "properties": {
+            "name": "Sao Tome and Principe"
+          },
+          "id": "STP"
+        },
+        {
+          "type": null,
+          "properties": {
             "name": "Seychelles"
           },
           "id": "SYC"
@@ -32155,6 +32162,13 @@
             "name": "Maldives"
           },
           "id": "MDV"
+        },
+        {
+          "type": null,
+          "properties": {
+            "name": "Kiribati"
+          },
+          "id": "KIR"
         },
         {
           "type": null,
@@ -32301,20 +32315,6 @@
             "name": "San Marino"
           },
           "id": "SMR"
-        },
-        {
-          "type": null,
-          "properties": {
-            "name": "Kiribati"
-          },
-          "id": "KIR"
-        },
-        {
-          "type": null,
-          "properties": {
-            "name": "Sao Tome and Principe"
-          },
-          "id": "STP"
         }
       ]
     }
