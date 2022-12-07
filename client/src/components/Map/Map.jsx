@@ -29,7 +29,7 @@ const getColor = (d) => {
 
 const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) => {
   const [data, setData] = useState([]);
-  const [position, setPosition] = useState({ coordinates: [37.62, 55.75], zoom: 4 });
+  const [position, setPosition] = useState({ coordinates: [76.2673, 9.9312], zoom: 4 });
 
   const mapWidth = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
   const mapHeight = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
@@ -43,12 +43,13 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
     { name: "Liechtenstein", id: 'LIE', coordinates: [9.5209, 47.1410] },
     { name: "Monaco", id: 'MCO', coordinates: [7.4246, 43.7384] },
     { name: 'Malta', id: 'MLT', coordinates: [14.3754, 35.9375], isIsland: true },
-    { name: 'Bahrain', id: 'BHR', coordinates: [50.0000, 27.0000] },
+    { name: 'Bahrain', id: 'BHR', coordinates: [50.5876, 26.2235] },
     { name: 'Hong Kong', id: 'HKG', coordinates: [114.5000, 22.5000], isIsland: true },
     { name: 'Macau', id: 'MAC', coordinates: [113.5000, 22.0000], isIsland: true },
     { name: 'Maldives', id: 'MDV', coordinates: [73.5093, 4.1755], isIsland: true },
     { name: 'Seychelles', id: 'SYC', coordinates: [55.4920, -4.6796], isIsland: true},
     { name: 'Comoros', id: 'COM', coordinates: [43.2473, -11.7172], isIsland: true },
+    { name: 'Mauritius', id: 'MUS', coordinates: [57.5522, -20.3484] },
     { name: 'Cape Verde', id: 'CPV', coordinates: [-23.5133, 14.9330], isIsland: true },
     { name: 'Sao Tome and Principe', id: 'STP', coordinates: [6.6131, 0.1864], isIsland: true },
     { name: 'Antigua and Barbuda', id: 'ATG', coordinates: [-61.8468, 17.1274], isIsland: true },
@@ -57,10 +58,16 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
     { name: 'Grenada', id: 'GRD', coordinates: [-61.6790, 12.1165], isIsland: true },
     { name: 'Saint Kitts and Nevis', id: 'KNA', coordinates: [-62.7830, 17.3578], isIsland: true },
     { name: 'Saint Lucia', id: 'LCA', coordinates: [-60.9789, 13.9094], isIsland: true },
-    { name: 'Saint Vincent and the Grenadines', id: 'VCT', coordinates: [-61.2872, 12.9843], isIsland: true }
-    // { name: '', id: '', coordinates: [, ] },
-    // { name: '', id: '', coordinates: [, ] },
-    // { name: '', id: '', coordinates: [, ] },
+    { name: 'Saint Vincent and the Grenadines', id: 'VCT', coordinates: [-61.2872, 12.9843], isIsland: true },
+    { name: 'Singapore', id: 'SGP', coordinates: [103.8198, 1.3521] },
+    { name: 'Palau', id: 'PLW', coordinates: [134.5825, 7.5150] },
+    { name: 'Nauru', id: 'NRU', coordinates: [166.9315, -0.5228] },
+    { name: 'Tuvalu', id: 'TUV', coordinates: [177.6493, -7.1095] },
+    { name: 'Tonga', id: 'TON', coordinates: [-175.1982, -21.1790] },
+    { name: 'Samoa', id: 'WSM', coordinates: [-172.1046, -13.7590] },
+    { name: 'Micronesia', id: 'FSM', coordinates: [150.5508, 7.4256] },
+    { name: 'Marshall Islands', id: 'MHL', coordinates: [171.1845, 7.1315] },
+    { name: 'Kiribati', id: 'KIR', coordinates: [-157.3768, 1.8369] },
   ];
 
   function handleZoomIn() {
