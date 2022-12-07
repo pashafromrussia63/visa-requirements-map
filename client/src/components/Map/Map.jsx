@@ -116,6 +116,8 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
                       key={geo.rsmKey}
                       geography={geo}
                       fill={getColor(d)}
+                      stroke="#ffffff"
+                      strokeWidth="0.1"
                       style={{
                         default: {
                           outline: "none"
