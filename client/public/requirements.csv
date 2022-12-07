@@ -11,7 +11,7 @@ AUS,Australia,Visa required,,au
 AUT,Austria,Visa required,,at
 AZE,Azerbaijan,Visa not required,90 days,az
 BHS,Bahamas,Visa not required,3 months,bs
-BHR,Bahrain,eVisa / Visa on arrival,"14 days/1 month",bh
+BHR,Bahrain,eVisa / Visa on arrival,14 days/1 month,bh
 BGD,Bangladesh,Visa on arrival,30 days,bd
 BRB,Barbados,Visa not required,28 days,bb
 BLR,Belarus,Internal passport,Freedom of movement,by
@@ -169,7 +169,7 @@ SUR,Suriname,Visa not required,90 days,sr
 SWZ,Swaziland,Visa not required,30 days,sz
 SWE,Sweden,Visa required,,se
 CHE,Switzerland,Visa required,,ch
-SYR,Syrian Arab Republic,Visa required,,sy
+SYR,Syrian Arab Republic,Visa on arrival,15 days (+90 days extension),sy
 TJK,Tajikistan,Visa not required,Indefinite period,tj
 TZA,"Tanzania, United Republic of",eVisa / Visa on arrival,3 months,tz
 THA,Thailand,Visa not required,30 days,th
