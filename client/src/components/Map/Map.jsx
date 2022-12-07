@@ -64,7 +64,7 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
   ];
 
   function handleZoomIn() {
-    if (position.zoom >= 5) return;
+    if (position.zoom >= 16) return;
     setPosition((pos) => ({ ...pos, zoom: pos.zoom * 2 }));
   }
 
@@ -139,6 +139,7 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
                       onClick={() => {
                         setSidebarVisibility(true);
                         setSidebarContent(d);
+                        setTooltipContent("");
                       }}
                     />
                   );
@@ -172,8 +173,8 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
                 }}
                 onClick={() => {
                   setSidebarVisibility(true);
-                  console.log(country);
                   setSidebarContent(country);
+                  setTooltipContent("");
                 }}
         >
                   <circle r={isIsland ? 1 : 2} fill={getColor(country)} stroke={isIsland ? 'none' : '#fff'}/>
