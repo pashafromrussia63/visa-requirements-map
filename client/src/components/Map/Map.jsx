@@ -103,8 +103,8 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
             center={position.coordinates}
             onMoveEnd={handleMoveEnd}
             translateExtent={[
-              [-100, -10],
-              [mapWidth + 100, mapHeight + 10]
+              [-100, -100],
+              [mapWidth + 100, mapHeight + 100]
             ]}
           >
             <Geographies geography={geoUrl}>
