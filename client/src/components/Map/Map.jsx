@@ -29,10 +29,13 @@ const getColor = (d) => {
 
 const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) => {
   const [data, setData] = useState([]);
-  const [position, setPosition] = useState({ coordinates: [0, 0], zoom: 1 });
+  const [position, setPosition] = useState({ coordinates: [37.62, 55.75], zoom: 4 });
 
-  const mapWidth = 800;
-  const mapHeight = 600;
+  const mapWidth = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+  const mapHeight = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+
+  // const mapWidth = 800;
+  // const mapHeight = 1700;
 
   const markers = [
     { name: "Andorra", id: 'AND', coordinates: [1.5218, 42.5063] },
@@ -90,9 +93,12 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
           center: [0, -20],
           scale: 90
         }}
+        width={mapWidth}
+        height={mapHeight}
       >
         {data.length > 0 && (
           <ZoomableGroup
+            className="map-zoomableGroup"
             zoom={position.zoom}
             center={position.coordinates}
             onMoveEnd={handleMoveEnd}

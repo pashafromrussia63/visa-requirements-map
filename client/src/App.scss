@@ -18,11 +18,15 @@
   color: #000000;
   position: fixed;
   z-index: 100;
-  width: 400px;
+  width: 100vw;
   height: 100vh;
   top: 0;
   left: 100%;
   transition: left 1s ease-out;
+
+  @media (min-width: 768px) {
+    width: 400px;
+  }
 
   &-flag {
     margin: 20px auto;
@@ -30,7 +34,11 @@
   }
 
   &--isOpen {
-    left: calc(100% - 400px);
+    left: 0;
     transition: left 1s ease-out;
+
+    @media (min-width: 768px) {
+      left: calc(100% - 400px);
+    }
   }
 }
