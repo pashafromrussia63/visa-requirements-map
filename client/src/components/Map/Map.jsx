@@ -179,7 +179,12 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
                   setTooltipContent("");
                 }}
         >
-                  <circle r={isIsland ? 1 : 2} fill={getColor(country)} stroke={isIsland ? 'none' : '#fff'}/>
+                  <circle
+                    r="1"
+                    fill={getColor(country)}
+                    stroke='#fff'
+                    strokeWidth="0.1"
+                  />
               </Marker>
             })
           }
