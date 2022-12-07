@@ -103,7 +103,7 @@ const MapChart = ({setTooltipContent, setSidebarContent, setSidebarVisibility}) 
             center={position.coordinates}
             onMoveEnd={handleMoveEnd}
             translateExtent={[
-              [-100, -100],
+              [-100, -200],
               [mapWidth + 100, mapHeight + 100]
             ]}
           >
