@@ -35,7 +35,7 @@
 
   &--isOpen {
     left: 0;
-    transition: left 1s ease-out;
+    transition: left .5s ease-out;
 
     @media (min-width: 768px) {
       left: calc(100% - 400px);
