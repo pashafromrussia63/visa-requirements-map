@@ -14,12 +14,60 @@ function App() {
   });
   const [sidebarVisiblity, setSidebarVisibility] = useState(false);
 
+  const mapLegend = [
+    {
+      color: '#1191e5',
+      label: 'Internal passport'
+    },
+    {
+      color: '#22b14c',
+      label: 'Visa not required'
+    },
+    {
+      color: '#79d343',
+      label: 'eVisa / Visa on arrival'
+    },
+    {
+      color: '#b5e61d',
+      label: 'Visa on arrival'
+    },
+    {
+      color: '#61c29c',
+      label: 'eVisa'
+    },
+    {
+      color: '#ababab',
+      label: 'Visa required'
+    },
+    {
+      color: '#000000',
+      label: 'Admission refused for tourists'
+    },
+    {
+      color: '#000133',
+      label: 'Disputed'
+    },
+  ]
+
   useEffect(() => {
     console.log('sidebar', sidebar);
   }, [sidebar]);
 
   return (
     <div className="app">
+      <div className="legend">
+        {
+          mapLegend.map((item) => (
+            <div
+              key={item.label}
+              className="legend-item"
+            >
+              <div className="legend-swatch" style={{backgroundColor: item.color}}></div>
+              <span className="legend-label">{item.label}</span>
+            </div>
+          ))
+        }
+      </div>
       <div className="map">
         <div data-tip="">
           <MapChart setTooltipContent={setContent} setSidebarContent={setSidebar} setSidebarVisibility={setSidebarVisibility}/>

@@ -12,6 +12,45 @@
   left: 5px;
 }
 
+.legend {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  height: 40px;
+  left: 0;
+  padding: 0 10px;
+  opacity: 0.8;
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &-item {
+    align-items: center;
+    display: flex;
+    opacity: 1;
+    margin: 0 10px;
+  }
+
+  &-swatch {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+  }
+
+  &-label {
+    margin-left: 10px;
+    white-space: nowrap;
+  }
+}
+
 .sidebar {
   background-color: beige;
   border: 1px solid grey;
