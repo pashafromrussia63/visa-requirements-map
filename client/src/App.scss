@@ -46,7 +46,6 @@
 
 .sidebar {
   background-color: #cccccc;
-  border-left: 2px solid #ffffff;
   color: #ffffff;
   padding: 20px;
   position: fixed;
@@ -58,6 +57,7 @@
   transition: left .5s ease-out;
 
   @media (min-width: 768px) {
+    border-left: 2px solid #ffffff;
     width: 400px;
   }
 
