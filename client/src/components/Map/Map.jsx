@@ -16,9 +16,9 @@ const getColor = (d) => {
   if(!d) return '#ababab';
   switch(d.status) {
     case 'Visa not required': return '#22b14c';
-    case 'eVisa / Visa on arrival': return '#79d343';
+    case 'Visa on arrival / eVisa': return '#32cd32';
     case 'eVisa': return '#61c29c';
-    case 'Visa on arrival': return '#b5e61d';
+    case 'Visa on arrival': return '#79d343';
     case 'Internal passport': return '#1191e5';
     case 'Admission refused for tourists': return '#000000';
     case 'Visa required': return '#ababab';

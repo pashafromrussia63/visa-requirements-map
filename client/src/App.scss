@@ -5,13 +5,6 @@
   overflow: hidden;
 }
 
-.button {
-  cursor: pointer;
-  position: absolute;
-  top: 5px;
-  left: 5px;
-}
-
 .legend {
   align-items: center;
   background-color: white;
@@ -52,9 +45,10 @@
 }
 
 .sidebar {
-  background-color: beige;
-  border: 1px solid grey;
-  color: #000000;
+  background-color: #cccccc;
+  border-left: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 20px;
   position: fixed;
   z-index: 100;
   width: 100vw;
@@ -67,17 +61,42 @@
     width: 400px;
   }
 
-  &-flag {
-    margin: 20px auto;
-    border-radius: 50%;
-  }
-
   &--isOpen {
     left: 0;
     transition: left .5s ease-out;
 
     @media (min-width: 768px) {
       left: calc(100% - 400px);
+    }
+  }
+
+  &-close {
+    cursor: pointer;
+    fill: #ffffff;
+    height: 30px;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+  }
+
+  &-flag {
+    height: 204px;
+    margin: 20px auto;
+
+    & img {
+      border-radius: 50%;
+      border: 6px solid #ffffff;
+    }
+  }
+
+  &-label {
+    text-align: justify;
+    margin-bottom: 10px;
+
+    &--title {
+      font-size: 30px;
+      font-weight: bold;
     }
   }
 }

@@ -3,6 +3,7 @@ import { CircleFlag } from 'react-circle-flags';
 import ReactTooltip from "react-tooltip";
 import './App.scss';
 import MapChart from './components/Map/Map';
+import { ReactComponent as CrossIcon } from './assets/icons/cross.svg';
 
 function App() {
   const [content, setContent] = useState("");
@@ -10,7 +11,9 @@ function App() {
     name: '',
     iso2: '',
     status: '',
-    stay: 0
+    stay: 0,
+    cost: '',
+    notes: ''
   });
   const [sidebarVisiblity, setSidebarVisibility] = useState(false);
 
@@ -24,11 +27,11 @@ function App() {
       label: 'Visa not required'
     },
     {
-      color: '#79d343',
-      label: 'eVisa / Visa on arrival'
+      color: '#32cd32',
+      label: 'Visa on arrival / eVisa'
     },
     {
-      color: '#b5e61d',
+      color: '#79d343',
       label: 'Visa on arrival'
     },
     {
@@ -48,6 +51,10 @@ function App() {
       label: 'Disputed'
     },
   ]
+
+  const getColor = (label: string) => {
+    return mapLegend.find((item) => item.label === label)?.color;
+  }
 
   useEffect(() => {
     console.log('sidebar', sidebar);
@@ -76,17 +83,27 @@ function App() {
       </div>
       <div
         className={`sidebar ${sidebarVisiblity ? 'sidebar--isOpen' : ''}`}
+        style={{backgroundColor: getColor(sidebar.status)}}
       >
-        <button className='button' onClick={() => setSidebarVisibility(false)}>X</button>
+        <CrossIcon
+          className='sidebar-close'
+          onClick={() => setSidebarVisibility(false)}
+        />
         <div className="sidebar-flag">
           {
             sidebar.iso2 ?  <CircleFlag countryCode={sidebar.iso2} height="200" /> : null
           }
         </div>
-        <div>{sidebar.name}</div>
-        <div>{sidebar.status}</div>
+        <div className="sidebar-label sidebar-label--title">{sidebar.name}</div>
+        <div className="sidebar-label">{sidebar.status}</div>
         {
-          (sidebar.stay) ? <div>Duration of stay: {sidebar.stay}</div> : null
+          (sidebar.stay) ? <div  className="sidebar-label">Duration of stay: {sidebar.stay}</div> : null
+        }
+        {
+          (sidebar.cost) ? <div  className="sidebar-label">Visa fee: {sidebar.cost}</div> : null
+        }
+        {
+          (sidebar.notes) ? <div  className="sidebar-label">Notes: {sidebar.notes}</div> : null
         }
       </div>
     </div>
