@@ -1,3 +1,5 @@
+You can check out the project on https://visa-requirements-map-eaq1.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

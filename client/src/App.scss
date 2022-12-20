@@ -1,4 +1,5 @@
 .app {
+  background-color: #E5E4E2;
   position: relative;
   text-align: center;
   height: 100vh;
@@ -81,12 +82,14 @@
   }
 
   &-flag {
-    height: 204px;
     margin: 20px auto;
+    min-height: 204px;
 
     & img {
       border-radius: 50%;
       border: 6px solid #ffffff;
+      min-height: 200px;
+      min-width: 200px;
     }
   }
 
@@ -97,6 +100,7 @@
     &--title {
       font-size: 30px;
       font-weight: bold;
+      text-align: left;
     }
   }
 }
